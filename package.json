@@ -1,0 +1,27 @@
+{
+  "name": "nodeappclick",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start_http_m_dev": "nodemon test_files/index.js",
+    "start_express_dev": "nodemon src/start.js",
+    "live": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaiah973/nodejsAppclick.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaiah973/nodejsAppclick/issues"
+  },
+  "homepage": "https://github.com/isaiah973/nodejsAppclick#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
